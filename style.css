@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    background-color: green;
+    margin-bottom: 0px;
+}
+
+
+
+
+#container {
+    background-image: url(images/cow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center center;
+    background: linear-gradient(to right, black -0.7%, rgba(26, 26, 26, 0) 100%), url(images/cow.png);
+}
+
+.menu {
+    margin-top: 3px;
+    float: right;
+}
+
+.menu ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    text-align: right;
+}
+
+
+.menu ul li {}
+
+
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.menu ul li a:hover {
+    color: blue;
+}
+
+
+.description {
+    color: white;
+
+    padding: 150px 150px;
+    margin-right: 700px;
+
+}
+
+.description p {
+    margin-bottom: 30px;
+}
+
+.description h2 {
+    font-size: 40px;
+    margin: 0px 0px;
+}
+
+.description a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+
+}
