@@ -28,7 +28,7 @@ h1 {
     float: right;
 }
 
-.menu ul {
+.menu>ul {
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -36,11 +36,22 @@ h1 {
     text-align: right;
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+}
 
-.menu ul li {}
+.dropdown li {
 
+    margin: 0;
+}
 
-
+nav>ul>li:hover>ul {
+    display: block;
+}
 
 .menu ul li a {
     text-decoration: none;
